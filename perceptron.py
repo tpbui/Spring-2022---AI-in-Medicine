@@ -1,8 +1,4 @@
 # Name: Tra Bui
-# AndrewID: tpbui
-# 15-282: AI in Medicine
-# Homework 2
-# Due date: February 15th, 2022
 
 # This program needs numpy library to be installed!
 import numpy as np
@@ -110,20 +106,6 @@ initWeightMatrix1 = np.random.uniform(-1,1, size=(4,4)).round(decimals = 2)
 result = perceptron(dataList, 0.5, initWeightMatrix1, 0, 10)
 
 print(result)
-
-
-# Task 3: Part d), calculate the score of TATGTT for final weight matrix
-# One possible return
-# a = np.array([[-0.07,-0.76,-1.43,0.23],
-#                  [-0.2,-1.27,-0.35,-1.26],
-#                  [-1.2 ,-1.96, -1.17, -1.94],
-#                  [-0.38, -1.62 ,-0.25, -1.22]])
-# 
-# b = np.array([[0,1,0,0,0,0], [1,0,1,0,1,1], [0,0,0,1,0,0], [0,0,0,0,0,0]])
-# 
-# print(scoreX(a,b))
-# print("Predicted class is non-true site")
-            
-        
+   
     
     
